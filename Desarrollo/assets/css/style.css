@@ -1,4 +1,5 @@
 /*---------------------------------------------
+/*---------------------------------------------
 				CONTENT
 -----------------------------------------------
 01. Global css 
@@ -358,7 +359,7 @@ a:focus {
 		/* 02. Mainmenu */
 
 .mainmenu-area {
-    background: #eb6852;
+    background: #88a5af;
     position: relative;
 }
 #menu-fixed {
@@ -493,7 +494,7 @@ body.down #menu-fixed.clone .donation a {
     line-height: 1;
 }
 .dropdown-menu li a:focus, .dropdown-menu li a:hover {
-	background: #88a5af;
+	background: #e34132;
 	color: #fff;
 	padding-left: 23px;
 }
@@ -522,7 +523,7 @@ body.down #menu-fixed.clone .donation a {
 	padding-left: 23px;
 }
 .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
-    background-color: #88a5af;
+    background-color: #e34132;
     border-color: #337ab7;
 }
 /* Multiple Menu style */
@@ -736,7 +737,7 @@ body.down #menu-fixed.clone .donation a {
 }
 .donation a {
     display: inline-block;
-    background: #88a5af;
+    background: #eb6852;
     color: #fff;
     padding: 25px 28px 25px;
     font-size: 14px;
