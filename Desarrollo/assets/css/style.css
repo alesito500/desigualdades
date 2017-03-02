@@ -84,6 +84,7 @@ body {
 }
 p {
     line-height: 26px;
+	text-align: justify;
 }
 h1, h2, h3, h4, h5, p {
     margin: 0;
@@ -181,7 +182,7 @@ a:focus {
     font-size: 16px;
     line-height: 26px;
     color: #4b4b4b;
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 .showing-result-box {
@@ -311,12 +312,13 @@ a:focus {
 .header-top-contact {
     float: left;
     margin-left: 12px;
+	margin-right: 30px;
 }
 .header-top-contact h5 {
     color: #333333;
     font-size: 16px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 .header-top-contact h6 {
     color: #88a5af;
@@ -1153,32 +1155,22 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     -webkit-transition: .2s;
     transition: .2s;
     margin-bottom: 30px;
-}
-.single-causes-box:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border: solid 1px #d85863;
+	padding: 15px;
 }
 .causes-img {
-    overflow: hidden;
+    /*overflow: hidden;*/
     backface-visibility: hidden;
+	text-align: center;
 }
 .causes-img img {
-    width: 100%;
+    width: 15%;
     -webkit-transition: .3s;
     transition: .3s;
 }
-.single-causes-box:hover .causes-img img {
-    -webkit-transform: scale(1.09);
-    -moz-transform: scale(1.09);
-    -ms-transform: scale(1.09);
-    -o-transform: scale(1.09);
-    transform: scale(1.09);    
-}
 .causes-content {
     border-width: 1px 1px 1px 1px;
-    background: #fff;
-    border-style: solid;
-    border-color: #F0F0F0;
-    padding: 30px;
+	padding: 15px;
     position: relative;
     -webkit-transition: .2s;
     transition: .2s;
@@ -1186,11 +1178,12 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .causes-content h4 {
     font-size: 20px;
     font-weight: 600;
-    color: #212121;
+    color: #666;
     margin-bottom: 6px;
+	text-align: center;
 }
 .causes-content h4 a {
-    color: #212121;
+    color: #666;
     -webkit-transition: .1s;
     transition: .1s;
 }
@@ -1259,6 +1252,8 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .causes-grid-one {
     margin: 0;
 }
+
+
 /*=================================
 05. Gallery Section
 ==================================*/
@@ -4327,6 +4322,11 @@ Footer Section - Footer Bottom
     margin-bottom: 45px;
 }
 
-
-
-
+/*=================================
+ICONOS CRIS
+==================================*/
+.fa-car, .fa-briefcase, .fa-money, .fa-users {-webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #eb6852;
+   -webkit-text-fill-color: #FAFAFA;
+color:#FAFAFA;}
+.agri {height:45px;}
