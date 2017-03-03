@@ -154,7 +154,7 @@ a:focus {
     background: #F7F7F7;
 }
 .section-overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.1);
 }
 .section-heading {
     overflow: hidden;
@@ -321,11 +321,14 @@ a:focus {
     margin-bottom: 0px;
 }
 .header-top-contact h6 {
-    color: #88a5af;
+    color: #e34132;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
+	margin-top:0;
+	
 }
+.header-top-contact a {color: #e34132;}
 /* Header Top event style */
 .header-top-right {}
 .header-top-right h5 {
@@ -1710,7 +1713,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .footer-top {
     padding: 90px 0 60px;
     overflow: hidden;
-    background: #000;
+    background: #eb6852;
 }
 .f-widget, .f-widget p, .f-widget a {
     color: #cccccc;
