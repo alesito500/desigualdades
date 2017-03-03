@@ -154,7 +154,7 @@ a:focus {
     background: #F7F7F7;
 }
 .section-overlay {
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.1);
 }
 .section-heading {
     overflow: hidden;
@@ -1710,7 +1710,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .footer-top {
     padding: 90px 0 60px;
     overflow: hidden;
-    background: #000;
+    background: #eb6852;
 }
 .f-widget, .f-widget p, .f-widget a {
     color: #cccccc;
