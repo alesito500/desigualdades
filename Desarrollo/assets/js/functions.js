@@ -1,8 +1,8 @@
 (function($){
     'use strict';
 		$(document).ready(function() {
-            
-			//Js code for Header Top 
+
+			//Js code for Header Top
 			var $menu_fixed = $("#menu-fixed"),
 			$clone = $menu_fixed.after($menu_fixed.clone().addClass("clone"));
 			$(window).on("scroll", function() {
@@ -10,8 +10,8 @@
 				$("body").toggleClass("down", (fromTop > 185));
 			});
 
-			
-			//Js code for Responsive multiple Munu 
+
+			//Js code for Responsive multiple Munu
 			$('.dropdown>.dropdown-menu>.dropdown a.dropdown-toggle').on('click', function(e) {
 				var $el = $(this);
 				var $parent = $(this).offsetParent(".dropdown-menu");
@@ -30,10 +30,10 @@
 							var div_top = $('#sticky-anchor').offset().top;
 							if (window_top > div_top) {
 								$('.mainmenu-area').removeClass('light-menu');
-								//This is for when div in top	
+								//This is for when div in top
 
 
-								  
+
 							} else {
 								$('.mainmenu-area').addClass('light-menu');
 								//This is for when div in not top
@@ -43,21 +43,21 @@
 						$(function () {
 							$(window).scroll(sticky_relocate);
 							sticky_relocate();
-						});	
-			}            
-            
-			//Js code for search box 
+						});
+			}
+
+			//Js code for search box
 			$(".first_click").click(function(){
 				$(".first_click").hide();
 				$(".second_click").css('display','block');
-				$(".mainmenu-area").addClass("search_box");	 
+				$(".mainmenu-area").addClass("search_box");
 			});
 			$(".second_click").click(function(){
 				$(".second_click").hide();
 				$(".first_click").css('display','block');
-				$(".mainmenu-area").removeClass("search_box"); 
-			});		
-		
+				$(".mainmenu-area").removeClass("search_box");
+			});
+
             // Payment Method Select Ammount Js
             $('.fixed-ammount').each(function (i, liList) {
                 var $ammount = $(liList);
@@ -71,10 +71,10 @@
                 if ( $(e.target).is('.other-ammount') ) {
                     $(".fixed-ammount label").removeClass("select-ammount-buttton");
                 }
-            });            
+            });
 
-            
-            // Progress Bar 
+
+            // Progress Bar
             function animateElements() {
                 $('.progressbar').each(function () {
                     var elementPos = $(this).offset().top;
@@ -95,7 +95,7 @@
                             animation: {
                               duration: 2000,
                               easing: 'easeOutBounce' // Default circleProgressEasing . You can also use jquery Easeing another Effect
-                            },					
+                            },
                         }).on('circle-animation-progress', function (event, progress, stepValue) {
                             $(this).find('div').text((stepValue*100).toFixed(0) + "%");
                         }).stop();
@@ -105,8 +105,8 @@
             // Show animated elements
             animateElements();
             $(window).scroll(animateElements);
-            
-            // swiper plugin Testimonial Onwe active.	
+
+            // swiper plugin Testimonial Onwe active.
             var swiper = new Swiper('.swiper-container', {
                 pagination: '.swiper-pagination',
                 paginationClickable: true,
@@ -115,7 +115,7 @@
                 loop: true
             });
 
-            // swiper plugin Logo Section active.	
+            // swiper plugin Logo Section active.
             var swiper = new Swiper('.swiper-container-two', {
                 slidesPerView: 4,
                 paginationClickable: false,
@@ -160,8 +160,8 @@
             $('.scrollbox').enscroll();
 
              //Count down Time js
-             $(".event_canvas").TimeCircles({circle_bg_color: "#fff"});            
-             $(".header-top-right .event_canvas").TimeCircles({circle_bg_color: "#E9E9E9"});            
+             $(".event_canvas").TimeCircles({circle_bg_color: "#fff"});
+             $(".header-top-right .event_canvas").TimeCircles({circle_bg_color: "#E9E9E9"});
 
 
             // nstslider for filtering price
@@ -177,8 +177,8 @@
                     $('.leftLabel').text(leftValue);
                     $('.rightLabel').text(rightValue);
                 },
-            });           
-            
+            });
+
            // Flex Carousel Active
           $('#flex_carousel').flexslider({
             animation: "slide",
@@ -195,22 +195,28 @@
             animationLoop: false,
             slideshow: false,
             sync: "#flex_carousel"
-          }); 
+          });
 
-            //Breadcrumb Effect    
+            //Breadcrumb Effect
             $(window).scroll(function() {
               var scroll = $(window).scrollTop();
               $(".breadcrumb-area").css({
                 "-webkit-filter": "blur(" + (scroll/90) + "px)",
                 filter: "blur(" + (scroll/90) + "px)",
-                "-webkit-transform": "translateY(" + (scroll*.5) + "%)",   
-                transform: "translateY(" + (scroll*.5) + "%)"   
+                "-webkit-transform": "translateY(" + (scroll*.5) + "%)",
+                transform: "translateY(" + (scroll*.5) + "%)"
               });
             });
-            
+
+            //Función para enviar correo
+            $("#comment-reply").blur(function(){
+                var $correo = $("#email").val();
+                var $nombre = $("#nombre").val();
+                var $asunto = $("#asunto").val();
+                $nombre = $nombre.concat(": ");
+                var $cuerpo = $nombre.concat($("#comment-reply").val());
+                $("#formCorreo").attr("action", "mailto:trades@colmex.mx?subject="+$asunto+"&cc="+$correo+"&body="+$cuerpo);
+              });
+
 		});
-})(jQuery);	  
-
-	
-
-
+})(jQuery);

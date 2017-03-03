@@ -32,6 +32,18 @@
 
         <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
 
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92967240-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
     </head>
 
     <body>
@@ -53,7 +65,7 @@
                               <div class="header-top-contact">
                                 <h5>Contáctanos</h5>
                                 <h6>
-                                  <a href="mailto:trades@colmex.mx?subject=Seminario TRADES">trades@colmex.mx</a>
+                                  <a href="mailto:trades@colmex.mx?subject=Seminario%20TRADES">trades@colmex.mx</a>
                                 </h6>
                               </div>
                             </li>
@@ -161,20 +173,20 @@
               <div class="col-xs-12 col-md-10 col-lg-9 col-md-offset-1">
                 <div class="submit-opinion">
                     <h4>Contáctanos</h4>
-                    <form action="#" class="comment-form">
+                    <form class="comment-form" id="formCorreo">
                         <div class="row">
                             <div class="col-sm-4 col-xs-12">
-                                <input type="text" name="fullname" placeholder="Nombre*" class="input" />
+                                <input type="nombre" id="nombre" name="Nombre" placeholder="Nombre*" class="input" />
                             </div>
                             <div class="col-sm-4 col-xs-12">
-                                <input type="email" name="email" placeholder="Correo electrónico*" class="input" />
+                                <input type="email" id="email" name="Correo" placeholder="Correo electrónico*" class="input" />
                             </div>
                             <div class="col-sm-4 col-xs-12">
-                                <input type="text" name="name" placeholder="Asunto" class="input" />
+                                <input type="text" id="asunto" name="asunto" placeholder="Asunto" class="input" />
                             </div>
                         </div>
-                        <textarea id="comment-reply" rows="7" placeholder="Comentario*"></textarea>
-                        <button class="button">Enviar mensaje</button>
+                        <textarea id="comment-reply" name="Comentario" rows="7" placeholder="Comentario*"></textarea>
+                        <button class="button" id="enviar" type="submit">Enviar mensaje</button>
                     </form>
                 </div>
               </div>
