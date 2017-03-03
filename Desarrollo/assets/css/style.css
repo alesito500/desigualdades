@@ -321,11 +321,14 @@ a:focus {
     margin-bottom: 0px;
 }
 .header-top-contact h6 {
-    color: #88a5af;
+    color: #e34132;
     font-size: 16px;
     font-weight: 500;
     margin-bottom: 0;
+	margin-top:0;
+	
 }
+.header-top-contact a {color: #e34132;}
 /* Header Top event style */
 .header-top-right {}
 .header-top-right h5 {
