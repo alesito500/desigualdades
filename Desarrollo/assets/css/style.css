@@ -4334,3 +4334,6 @@ ICONOS CRIS
    -webkit-text-fill-color: #FAFAFA;
 color:#FAFAFA;}
 .agri {height:45px;}
+
+.nosotros, .coordinacion {text-align: justify;}
+.nosotros h4, .coordinacion h4 {color:#88a5af; padding-bottom: 10px;}
