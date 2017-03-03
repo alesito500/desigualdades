@@ -173,7 +173,7 @@
               <div class="col-xs-12 col-md-10 col-lg-9 col-md-offset-1">
                 <div class="submit-opinion">
                     <h4>Contáctanos</h4>
-                    <form class="comment-form" id="formCorreo">
+                    <form class="comment-form" id="formCorreo" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="col-sm-4 col-xs-12">
                                 <input type="nombre" id="nombre" name="Nombre" placeholder="Nombre*" class="input" />
@@ -186,7 +186,7 @@
                             </div>
                         </div>
                         <textarea id="comment-reply" name="Comentario" rows="7" placeholder="Comentario*"></textarea>
-                        <button class="button" id="enviar" type="submit">Enviar mensaje</button>
+                        <button class="button" id="enviar" onclick="send_mail()">Enviar mensaje</button>
                     </form>
                 </div>
               </div>
