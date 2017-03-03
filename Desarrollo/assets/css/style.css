@@ -100,6 +100,7 @@ ul{
 }
 a, a:hover {
     text-decoration: none;
+	color:#e34132;
 }
 a:focus {
     text-decoration: none;
@@ -145,7 +146,7 @@ a:focus {
     box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af; 
 }
 .section {
-    padding: 120px 0;
+    padding: 50px 0;
 }
 .p-90 {
     padding-bottom: 90px;
@@ -159,7 +160,7 @@ a:focus {
 .section-heading {
     overflow: hidden;
     text-align: center;
-    padding-bottom: 58px;
+    padding-bottom: 20px;
 }
 .section-heading span {
     display: inline-block;
@@ -173,7 +174,7 @@ a:focus {
 }
 .section-heading h3 {
     font-size: 36px;
-    color: #000;
+    color: #667c83;
     font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
