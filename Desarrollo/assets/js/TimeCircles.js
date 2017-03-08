@@ -816,22 +816,22 @@
             Days: {
                 show: true,
                 text: "Días",
-                color: "#EFC122"
+                color: "#EB6852"
             },
             Hours: {
                 show: true,
                 text: "Horas",
-                color: "#EFC122"
+                color: "#EB6852"
             },
             Minutes: {
                 show: true,
                 text: "Minutos",
-                color: "#EFC122"
+                color: "#EB6852"
             },
             Seconds: {
                 show: true,
                 text: "Segundos",
-                color: "#EFC122"
+                color: "#EB6852"
             }
         }
     };
