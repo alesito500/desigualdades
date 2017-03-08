@@ -209,14 +209,27 @@
             });
 
             //Función para enviar correo
+            var correo;
+            var nombre;
+            var asunto;
+            var cuerpo;
             $("#comment-reply").blur(function(){
-                var $correo = $("#email").val();
-                var $nombre = $("#nombre").val();
-                var $asunto = $("#asunto").val();
-                $nombre = $nombre.concat(": ");
-                var $cuerpo = $nombre.concat($("#comment-reply").val());
-                $("#formCorreo").attr("action", "mailto:trades@colmex.mx?subject="+$asunto+"&cc="+$correo+"&body="+$cuerpo);
+                correo = $("#email").val();
+                nombre = $("#nombre").val();
+                asunto = $("#asunto").val();
+                nombre = nombre.concat(": ");
+                cuerpo = nombre.concat($("#comment-reply").val());
+                $("#formCorreo").attr("action", "mailto:trades@colmex.mx?subject="+asunto+"&cc="+correo+"&body="+cuerpo);
+                if(correo != '' && nombre != ': ' && cuerpo != ': '){
+                  send_mail();
+                }
               });
-
 		});
 })(jQuery);
+function send_mail(){
+  $("form").submit();
+  $("#email").val('');
+  $("#nombre").val('');
+  $("#asunto").val('');
+  $("#comment-reply").val('');
+}
