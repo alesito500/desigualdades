@@ -79,9 +79,9 @@
     padding: 0;
 }
 body {
-  font-family: 'Josefin Slab', sans-serif;
+  font-family: 'Lato', sans-serif;
 	color:#4b4b4b;
-    font-size: 18px;
+    font-size: 16px;
 }
 p {
     line-height: 26px;
@@ -4336,7 +4336,8 @@ ICONOS CRIS
 color:#FAFAFA;}
 .agri {height:45px;}
 
-.nosotros, .coordinacion {text-align: justify;}
+.nosotros, .coordinacion {text-align: justify; padding-left: 30px; padding-right: 30px;}
 .nosotros h4, .coordinacion h4 {color:#88a5af; padding-bottom: 10px; text-align: left;}
 .coordinacion li { padding-top: 0.3em; padding-bottom: 0.6em;}
 .nosotros li { padding-top: 0.3em; padding-bottom: 0.5em;}
+.nosotros .section-heading{ text-align: left;}
