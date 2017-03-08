@@ -2,8 +2,8 @@
 /*---------------------------------------------
 				CONTENT
 -----------------------------------------------
-01. Global css 
- 
+01. Global css
+
 02. Header Section
 	01.	Header Top
 	02. Mainmenu
@@ -11,10 +11,10 @@
 
 03. Slider Section
 
-04. Donation Box Section	 
+04. Donation Box Section
 
 05. Gallery Section
-	 
+
 06. Running Project Section Section
     01. Project Single Page
 
@@ -23,7 +23,7 @@
 08. Upcomimg Events
 
 09. Twitter Section
-	 
+
 10. Helping Section
 
 11. Causes Section Style Two
@@ -40,7 +40,7 @@
 
 17. Home Blog Section
 
-18. Careing section 
+18. Careing section
 
 19. Photo Gallery
 
@@ -58,7 +58,7 @@
 
 24. Comment Form
 
-25.Team Single Page 
+25.Team Single Page
 
 26. Event Single page
 
@@ -143,7 +143,7 @@ a:focus {
 .btn-two:hover {
     color: #fff;
     border: 2px solid #88a5af;
-    box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af; 
+    box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af;
 }
 .section {
     padding: 50px 0;
@@ -226,7 +226,7 @@ a:focus {
     top: 8px;
 }
 .search-result-right button i {
-    
+
 }
 .search-result-right .grid-icon {
     float: left;
@@ -284,7 +284,7 @@ a:focus {
 
 /*=================================
 02. Header Section
-==================================*/ 
+==================================*/
 /* Header Top */
 .header-top {
     padding: 15px 0;
@@ -327,7 +327,7 @@ a:focus {
     font-weight: 500;
     margin-bottom: 0;
 	margin-top:0;
-	
+
 }
 .header-top-contact a {color: #e34132;}
 /* Header Top event style */
@@ -437,13 +437,13 @@ body.down #menu-fixed.clone .donation a {
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
     color: #fff;
-    background-color: transparent;	
+    background-color: transparent;
 }
 
 /* dropdown */
 
 .navbar-nav li ul  {
-    -webkit-transition: all .35s;	
+    -webkit-transition: all .35s;
     transition: all .35s;
     padding: 0 0;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
@@ -456,7 +456,7 @@ body.down #menu-fixed.clone .donation a {
 }
 .navbar-nav>li.dropdown>ul.dropdown-menu {
 	top: 86px;
-	left:0;	
+	left:0;
 }
 /* Menu li Plus Minus */
 .navbar-nav>li.dropdown a span {
@@ -511,7 +511,7 @@ body.down #menu-fixed.clone .donation a {
     transition: all .35s;
     top: 0;
     left: 100%;
-    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);;	
+    box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);;
 }
 .dropdown-menu>li.dropdown:hover>ul.dropdown-menu {
 
@@ -659,7 +659,7 @@ body.down #menu-fixed.clone .donation a {
 .chart-icon .cart-list li .cart-list-delate i {
     font-size: 14px;
     text-align: right;
-    color: #88a5af;	
+    color: #88a5af;
 }
 .cart-select-total {}
 .cart-select-total h3 {
@@ -688,14 +688,14 @@ body.down #menu-fixed.clone .donation a {
 #all-search {
     border: none;
     padding: 5px 18px;
-    background: #000000;	
-    position: absolute;	
+    background: #000000;
+    position: absolute;
     margin: 0 auto;
     left: 0;
 	right:0;
     height: 100%;
-    width: 0%;	
-    text-align: center;	
+    width: 0%;
+    text-align: center;
 	-webkit-transform: rotate3d(1,0,0,90deg);
     -moz-transform: rotate3d(1,0,0,90deg);
     -ms-transform: rotate3d(1,0,0,90deg);
@@ -729,7 +729,7 @@ body.down #menu-fixed.clone .donation a {
     -o-transform: rotate3d(0,0,0,00deg);
     transform: rotate3d(0,0,0,00deg);
     width: 100%;
-	visibility: visible;	
+	visibility: visible;
 }
 
 .second_click {
@@ -829,9 +829,9 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 }
 /*=================================
 03. Slider Section
-==================================*/ 
+==================================*/
 .slider-section {
-    
+
 }
 .slider-overlay {
     width: 100%;
@@ -1019,7 +1019,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .slider-style-two .slider-content-inner h2:after {
     right: -177px;
     background: url(../../images/slider-h2-after.png);
- 
+
 }
 .slider-style-two .slider-content-inner p {
     width: 70%;
@@ -1039,7 +1039,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     padding: 30px 15px;
     background: #fff;
     transform: translateY(-30px);
-    box-shadow: 0px 2px 5px #ddd;    
+    box-shadow: 0px 2px 5px #ddd;
 }
 .donation-box-left {
     overflow: hidden;
@@ -1371,8 +1371,8 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .gallery-img:hover .gallery-content h4 {
     transform: translateY(0px);
     opacity: 1;
-    -webkit-transition-delay: .2s;    
-    transition-delay: .2s;    
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
 }
 #lightcase-info {
     padding-top: 6px;
@@ -1479,17 +1479,17 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 	opacity:0 !important;
 	-webkit-transform: translateX(20px);
 	transform: translateX(20px);
-	-webkit-transition: all 1s;	
-	transition: all 1s;	
-	z-index:1;	
+	-webkit-transition: all 1s;
+	transition: all 1s;
+	z-index:1;
 }
 #map_canvas:hover .gmnoprint, #event_map:hover .gmnoprint, #contact_map:hover .gmnoprint {
 	opacity:1 !important;
-	transform: translateX(0);	
+	transform: translateX(0);
 }
 #map_canvas:hover .gm-svpc, #event_map:hover .gm-svpc, #contact_map:hover .gm-svpc {
 	opacity:1 !important;
-	transform: translateX(0);	
+	transform: translateX(0);
 }
  /* 01. Project Single Page */
 .project-single .time-shedule {
@@ -1540,7 +1540,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     font-weight: 400;
 }
 .donators-info h5 span, .single-donator:hover h4 {
-    color: #88a5af;  
+    color: #88a5af;
 }
 .single-donator:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -1579,7 +1579,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
  	-webkit-transform: scale(1.09);
     -moz-transform: scale(1.09);
     -ms-transform: scale(1.09);
-    -o-transform: scale(1.09);   
+    -o-transform: scale(1.09);
     transform: scale(1.09);
 }
 .event-date {
@@ -1686,7 +1686,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 .single-twit p span{
 	color: #88a5af;
-	
+
 }
 .single-twit p span a {
 	color: #88a5af;
@@ -1758,7 +1758,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .latest-news li  {
     border-top: 1px solid #0F0F0F;
     overflow: hidden;
-    padding: 20px 0;	
+    padding: 20px 0;
 }
 .latest-news li:first-child {
     border-top: 0 none;
@@ -1805,11 +1805,11 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .twitter-widget li {
     border-top: 1px solid #0F0F0F;
     overflow: hidden;
-    padding: 20px 0;		
+    padding: 20px 0;
 }
 .twitter-widget li:first-child {
     border-top: 0 none;
-    padding: 5px 0 20px;		
+    padding: 5px 0 20px;
 }
 .twitter-widget li .twitter-pic {
     float: left;
@@ -1921,7 +1921,7 @@ Footer Section - Footer Bottom
     -ms-transform: rotate3d(2, 2, 0, 90deg);
     -o-transform: 	rotate3d(2, 2, 0, 90deg);
     transform: rotate3d(2, 2, 0, 90deg);
-    -webkit-transition: .5s; 
+    -webkit-transition: .5s;
     -moz-transition: .5s;
     -ms-transition: .5s;
     -o-transition: .5s;
@@ -1929,14 +1929,14 @@ Footer Section - Footer Bottom
     border: 0px solid;
 }
 .social-icon ul li a i:hover {
-	color: #fff;	
+	color: #fff;
 }
 .social-icon ul li a i:hover::after {
     -webkit-transform: rotate3d(0, 0, 0, 0deg);
     -moz-transform: rotate3d(0, 0, 0, 0deg);
     -ms-transform: rotate3d(0, 0, 0, 0deg);
     -o-transform: 	rotate3d(0, 0, 0, 0deg);
-	transform: rotate3d(0, 0, 0, 0deg);	
+	transform: rotate3d(0, 0, 0, 0deg);
 }
 
 /*==========================================
@@ -2279,7 +2279,7 @@ Footer Section - Footer Bottom
 16. Twitter Style Two
 ==================================*/
 .t-style-two {
-    background-image: url(../../images/twitter-section-style-two-bg.jpg);    
+    background-image: url(../../images/twitter-section-style-two-bg.jpg);
 }
 .t-style-two .twitter-overlay {
     padding: 110px 0 104px;
@@ -2311,7 +2311,7 @@ Footer Section - Footer Bottom
     border-radius: 100%;
     width: 112px;
     height: 112px;
-    margin: 0 auto;  
+    margin: 0 auto;
     margin-bottom: 45px;
 }
 .twitter-person-pic img {
@@ -2344,7 +2344,7 @@ Footer Section - Footer Bottom
 17. Home Blog Section
 ==================================*/
 .blog-section {
-    padding-bottom: 70px;    
+    padding-bottom: 70px;
 }
 .single-blog {}
 .single-blog-img {
@@ -2358,14 +2358,14 @@ Footer Section - Footer Bottom
 	-webkit-transition: .3s;
     -moz-transition: .3s;
     -ms-transition: .3s;
-    -o-transition: .3s;    
+    -o-transition: .3s;
     transition: .3s;
 }
 .single-blog:hover .single-blog-img a img  {
 	-webkit-transform: scale(1.09);
     -moz-transform: scale(1.09);
     -ms-transform: scale(1.09);
-    -o-transform: scale(1.09);    
+    -o-transform: scale(1.09);
     transform: scale(1.09);
 }
 .blog-content-box {
@@ -2375,7 +2375,7 @@ Footer Section - Footer Bottom
 	-webkit-transform: translateY(-30px);
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
-    -o-transform: translateY(-30px);    
+    -o-transform: translateY(-30px);
     transform: translateY(-30px);
     background: #fff;
     padding-bottom: 30px;
@@ -2550,7 +2550,7 @@ Footer Section - Footer Bottom
 }
 .single-product:hover .product-img .overlay {
     opacity: 1;
-    visibility: visible;    
+    visibility: visible;
 }
 .shop-icon-box {
     position: absolute;
@@ -2614,7 +2614,7 @@ Footer Section - Footer Bottom
     text-decoration: none;
     -webkit-transition: .25s;
     transition: .25s;
-    
+
 }
 .product-info h4 a:hover {
     color: #88a5af
@@ -2636,10 +2636,10 @@ Footer Section - Footer Bottom
     margin-bottom: 30px;
     -webkit-transition: .2s;
     transition: .2s;
-    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);    
+    box-shadow: 0px 0px 0 rgba(0, 0, 0, 0.1);
 }
 .product-list-style .single-product:hover {
-     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);    
+     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .product-list-style .product-img {
     width: 48%;
@@ -2696,12 +2696,12 @@ Footer Section - Footer Bottom
     background: transparent;
     color: #88a5af;
     font-size: 16px;
-	-webkit-transition: .4s;	
+	-webkit-transition: .4s;
 	transition: .4s;
 }
 .panel-title a.collapsed {
     background: none;
-    color: #212121;	
+    color: #212121;
 }
 .panel-body {
     padding: 20px 25px;
@@ -2761,14 +2761,14 @@ Footer Section - Footer Bottom
     -moz-transform: translateY(-50%) translateX(-50%) rotateZ(90deg);
     -ms-transform: translateY(-50%) translateX(-50%) rotateZ(90deg);
     -o-transform: translateY(-50%) translateX(-50%) rotateZ(90deg);
-    transform: translateY(-50%) translateX(-50%) rotateZ(90deg);	
+    transform: translateY(-50%) translateX(-50%) rotateZ(90deg);
 }
 .panel-title a .plus-stick{
 	-webkit-transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
     -moz-transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
     -ms-transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
     -o-transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
-    transform: translateY(-50%) translateX(-50%) rotateZ(360deg);	
+    transform: translateY(-50%) translateX(-50%) rotateZ(360deg);
 }
 .panel-group .panel {
     border-radius: 0;
@@ -2891,7 +2891,7 @@ Footer Section - Footer Bottom
     position: absolute;
     top: 0;
     left: 0;
-	
+
 }
 .add-content {
     position: absolute;
@@ -2992,7 +2992,7 @@ Footer Section - Footer Bottom
     top: 0;
     left: 0;
 	display: block;
-	
+
 }
 .about-product {}
 .product-heading {
@@ -3158,10 +3158,10 @@ Footer Section - Footer Bottom
 }
 .review-description p {
     line-height: 28px;
-    color: #696969;    
+    color: #696969;
 }
 .review-heading {
-    margin-bottom: 4px;	
+    margin-bottom: 4px;
 }
 .review-heading h4 {
     font-size: 18px;
@@ -3623,7 +3623,7 @@ Footer Section - Footer Bottom
 .comment-content {
 	display: table;
 	padding: 0 0 0 20px;
-    color: #696969;    
+    color: #696969;
 }
 .comment-meta {
     overflow: hidden;
@@ -3675,7 +3675,7 @@ Footer Section - Footer Bottom
 	padding-left: 50px;
 }
 .comment-list li ul .comment-item{
-    border-bottom: 1px solid #F0F0F0 !important;	
+    border-bottom: 1px solid #F0F0F0 !important;
 }
 .comment-list:last-child  .comment-item {
 	border-bottom: 0;
@@ -3786,7 +3786,7 @@ Footer Section - Footer Bottom
     color: #88a5af;
 }
 /*=================================
-25.Team Single Page 
+25.Team Single Page
 ==================================*/
 .team-single {}
 .team-single h4 {
@@ -3888,7 +3888,7 @@ Footer Section - Footer Bottom
     margin-top: 35px;
 }
 /*=================================
-26. Event Single page 
+26. Event Single page
 ==================================*/
 /* Event Time */
 .event-full-img {
@@ -3896,7 +3896,7 @@ Footer Section - Footer Bottom
     position: relative;
 }
 .event-full-img img {
-    width: 100%;    
+    width: 100%;
 }
 .event-time-area {
     position: absolute;
@@ -4032,7 +4032,7 @@ Footer Section - Footer Bottom
     margin: 0;
     font-size: 35px;
     color: #88a5af;
-    
+
 }
 .contact-content {
     display: table;
@@ -4336,4 +4336,6 @@ color:#FAFAFA;}
 .agri {height:45px;}
 
 .nosotros, .coordinacion {text-align: justify;}
-.nosotros h4, .coordinacion h4 {color:#88a5af; padding-bottom: 10px;}
+.nosotros h4, .coordinacion h4 {color:#88a5af; padding-bottom: 10px; text-align: left;}
+.coordinacion li { padding-top: 0.3em; padding-bottom: 0.6em;}
+.nosotros li { padding-top: 0.3em; padding-bottom: 0.5em;}
