@@ -70,6 +70,9 @@
 
 30. 404 Page
 
+31. Íconos Cris
+
+32. Lightbox
 ----------------------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
@@ -4328,7 +4331,7 @@ Footer Section - Footer Bottom
 }
 
 /*=================================
-ICONOS CRIS
+31. ICONOS CRIS
 ==================================*/
 .fa-car, .fa-briefcase, .fa-money, .fa-users {-webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #eb6852;
@@ -4341,3 +4344,37 @@ color:#FAFAFA;}
 .coordinacion li { padding-top: 0.3em; padding-bottom: 0.6em;}
 .nosotros li { padding-top: 0.3em; padding-bottom: 0.5em;}
 .nosotros .section-heading{ text-align: left;}
+
+/*=================================
+32. Lightbox
+==================================*/
+
+.lightbox {
+	/** Default lightbox oculto */
+	display: none;
+
+	/** Posición y estilo */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Destapar el lightbox **/
+	display: block;
+}
