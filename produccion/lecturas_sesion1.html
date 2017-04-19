@@ -52,6 +52,7 @@
         <![endif]-->
         <!-- Sección del encabezado -->
         <header class="header">
+          <!-- Primer Banner, se muestra con el correo y las redes sociales en la cima del sitio -->
             <div class="header-top">
                 <div class="container">
                     <div class="row">
@@ -82,6 +83,8 @@
                     </div>
                 </div>
             </div>
+            <!-- Primer Banner, se muestra con el correo y las redes sociales en la cima del sitio -->
+            <!-- Inicio menú principal. Este es el menú que queda fijo en la pantalla -->
 			<div class="mainmenu-area" id="menu-fixed">
 				<div class="container">
 					<div class="row">
@@ -108,7 +111,7 @@
                                         <li><a href="seminario.html">El seminario</a></li>
                                       </ul>
                                     </li>
-                                    <li class="active"><a href="#"><span>Nosotros</span></a></li>
+                                    <li><a href="nosotros.html"><span>Nosotros</span></a></li>
                                     <li class="dropdown active">
                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Sesiones</span></a>
                                       <ul class="dropdown-menu">
@@ -123,8 +126,8 @@
                                     <li class="dropdown active">
                                       <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span>Lecturas recomendadas</span></a>
                                       <ul class="dropdown-menu">
-                                        <li>
-                                            <a href="lecturas_sesion1.html">Sesión 1: El futuro del trabajo en la industria automotriz</a>
+                                        <li class="active">
+                                            <a href="#">Sesión 1: El futuro del trabajo en la industria automotriz</a>
                                         </li>
                                       </ul>
                                     </li>
@@ -137,6 +140,7 @@
 					</div>
 				</div>
 			</div>
+      <!-- Fin menú principal. Este es el menú que queda fijo en la pantalla -->
         </header>
         <!-- Fin de sección de encabezado -->
         <!-- Banner superior -->
@@ -144,181 +148,130 @@
     		    <div class="section-overlay">
                     <div class="container">
                         <div class="breadcrumb-area">
-                            <h2 class="breadcrumb-title">Nosotros</h2>
+                            <h2 class="breadcrumb-title">Lecturas recomendadas</h2>
                         </div>
                     </div>
     		    </div>
     		</section>
         <!-- Fin de banner superior -->
         <!-- Sección de la información -->
-        <section class="section helping-section">
+        <section class="section p-90">
           <div class="container">
             <div class="row">
-              <div class="col-xs-12 coordinacion">
-                <div class="section-heading">
-                  <h3 id="Coordinacion">Coordinación</h3>
+              <div class="col-xs-12">
+                <div class="widget">
+                    <h3>Artículos académicos</h3>
+                    <div class="widget-content">
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                              <h4 class="panel-title">
+                                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  Klier, T. H., & Rubenstein, J. M. (2010). The changing geography of North American motor vehicle production. <i>Cambridge Journal of Regions, Economy and Society</i>, rsq024.
+                                <span class="plus-minus-icon">
+                                    <span class="plus-stick"></span>
+                                    <span class="minus-stick"></span>
+                                </span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                              <div class="panel-body">
+                                <ul>
+                                    <li><a href="https://academic.oup.com/cjres/article/3/3/335/495875/The-changing-geography-of-North-American-motor"><i class="fa fa-caret-right" aria-hidden="true"></i>https://academic.oup.com/cjres/article/3/3/335/495875/The-changing-geography-of-North-American-motor</a></li>
+                                    <li>
+                                      <p>
+                                        <h2>
+                                          Resumen:
+                                        </h2>
+                                        Artículo que analiza la expansión y consolidación del Auto Alley (corredor de los autos), que abarca desde la región de los Grandes Lagos hasta el Golfo de México, como el área de producción más importante de vehículos automotores y autopartes en los Estados Unidos. Esta expansión al sur de la producción está vinculada con el rol de México como integrante del TLCAN y con menores costos de mano de obra.
+                                      </p>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  Covarrubias, V. (2011). The Mexican auto industry: From crisis to greater region-centric influence. <i>Norteamérica, 6</i>(2), 115-155.
+                                <span class="plus-minus-icon">
+                                    <span class="plus-stick"></span>
+                                    <span class="minus-stick"></span>
+                                </span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                              <div class="panel-body">
+                                <ul>
+                                    <li><a href="http://www.scielo.org.mx/scielo.php?pid=S1870-35502011000200005&script=sci_arttext&tlng=pt"><i class="fa fa-caret-right" aria-hidden="true"></i>http://www.scielo.org.mx/scielo.php?pid=S1870-35502011000200005&script=sci_arttext&tlng=pt</a></li>
+                                    <li>
+                                      <p>
+                                        <h2>Resumen:</h2>
+                                        El autor del artículo analiza el creciente protagonismo de la industria automotriz mexicana ante la recesión económica de 2008-2009 y el rescate a la industria estadounidense. En este contexto, numerosas compañías, tanto estadounidenses como de otras regiones del mundo, han continuado inversiones en México, lo que posiciona a la industria automotriz mexicana como un actor fundamental en la dinámica comercial de América del Norte.
+                                      </p>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Bracamonte Sierra, Á., & Contreras, O. F. (2008). Redes globales de producción y proveedores locales: los empresarios sonorenses frente a la expansión de la industria automotriz. <i>Estudios fronterizos, 9</i>(18), 161-194.
+                                <span class="plus-minus-icon">
+                                    <span class="plus-stick"></span>
+                                    <span class="minus-stick"></span>
+                                </span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                              <div class="panel-body">
+                                <ul>
+                                    <li><a href="http://www.scielo.org.mx/scielo.php?pid=S0187-69612008000200006&script=sci_arttext&tlng=pt"><i class="fa fa-caret-right" aria-hidden="true"></i>http://www.scielo.org.mx/scielo.php?pid=S0187-69612008000200006&script=sci_arttext&tlng=pt</a></li>
+                                    <li>
+                                      <p>
+                                        <h2>Resumen:</h2>
+                                        Este artículo analiza la estrategia seguida por Ford en Hermosillo, Sonora, ante la recesión económica en Estados Unidos y la crisis de la industria automotriz en dicho país. La relocalización de la producción de empresas armadoras y de autopartes a México está vinculada con la formación de nuevas pequeñas y medianas empresas en la región, como consecuencia de la derrama económica, transferencia de conocimiento y tecnología y la consolidación del conglomerado industrial.
+                                      </p>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                            </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                              <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                  Alvarez-Medina, L., & Carrillo, J. (2014). Restructuring of the automotive industry in the North American Free Trade Agreement (NAFTA) region from 2007 to 2011. <i>International Review of Management and Business Research, 3</i>(4), 2120.
+                                <span class="plus-minus-icon">
+                                    <span class="plus-stick"></span>
+                                    <span class="minus-stick"></span>
+                                </span>
+                                </a>
+                              </h4>
+                            </div>
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                              <div class="panel-body">
+                                <ul>
+                                    <li><a href="http://search.proquest.com/openview/918807bfb267665dc105d597cd4bb871/1?pq-origsite=gscholar&cbl=2029531"><i class="fa fa-caret-right" aria-hidden="true"></i>http://search.proquest.com/openview/918807bfb267665dc105d597cd4bb871/1?pq-origsite=gscholar&cbl=2029531</a></li>
+                                    <li>
+                                      <p>
+                                        <h2>Resumen:</h2>
+                                        Artículo que compara la producción en cinco regiones de los países miembros del TLCAN en 2007 y 2011 para estimar diferencias en producción antes y después de la recesión económica. Los resultados señalan que las regiones tradicionales de producción automotriz en México fueron las más favorecidas, mientras que las regiones tradicionales de Estados Unidos fueron las más afectadas.
+                                      </p>
+                                    </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-xs-12 coordinacion">
-                <dl>
-                  <h4>Landy Sánchez Peña <br>Coordinadora del Seminario</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctora en Sociología por la <a href="http://www.wisc.edu/" target="_blank">Universidad de Wisconsin-Madison</a>.
-                      </li>
-                      <li>
-                        Profesora-Investigadora del <a href="http://cedua.colmex.mx" target="blank">Centro de Estudios Demográficos, Urbanos y Ambientales</a> de El Colegio de México.
-                      </li>
-                      <li>
-                        <ul>
-                          <li>
-                            <span class="flaticon-letter"></span> <a href="mailto:lsanchez@colmex.mx?subject=Sitio Trades">lsanchez@colmex.mx</a>
-                          </li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 coordinacion">
-                <dl>
-                  <h4>
-                    Mauricio Rodríguez Abreu
-                  </h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctor en Demografía Aplicada por la <a href="http://www.utsa.edu/" target="_blank">Universidad de Texas, San Antonio</a>.
-                      </li>
-                      <li>
-                        Investigador Asociado del Seminario
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 coordinacion">
-                <dl>
-                  <h4>
-                    Clementina Chávez Ballesteros
-                  </h4>
-                  <dd>
-                    <ul>
-                      <li>Maestra en <a href="http://ceaa.colmex.mx/" target="_blank">Estudios de Asia y África</a> por el Colegio de México. Investigadora visitante.</li>
-                    </ul>
-                    <ul>
-                      <li><span class="flaticon-letter"></span> <a href="mailto:lsanchez@colmex.mx?subject=Sitio Trades">cchavez@colmex.mx</a></li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section causes-section">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 nosotros">
-                <div class="section-heading">
-                  <h3 id="consejoConsultivo">Consejo consultivo</h3>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>Edith Pacheco</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctora en Ciencias Sociales con especialidad en Estudios de Población, El Colegio de México.
-                      </li>
-                      <li>
-                        Profesora-investigadora del <a href="http://cedua.colmex.mx" target="blank">Centro de Estudios Demográficos, Urbanos y Ambientales</a> de El Colegio de México.
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>Graciela Besunsán</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctora en Ciencias Políticas, <a href="http://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de México</a>.
-                      </li>
-                      <li>
-                        Profesora de tiempo completo en la <a href="http://www.uam.mx/" target="_blank">Universidad Autónoma Metropolitana</a> y de tiempo parcial en la <a href="http://www.flacso.edu.mx/" target="_blank">Flacso México.</a>
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>Luis Foncerrada</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Director del <a href="http://ceesp.org.mx/" target="_blank">Centro de Estudios Económicos del Sector Privado</a>.
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>Ana Luisa Liguori</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Maestra en Comunicación, Facultad de Ciencias Políticas y Sociales de la <a href="http://www.unam.mx/" target="_blank">Universidad Nacional Autónoma de México</a>
-                      </li>
-                      <li>
-                        <a href="https://www.fordfoundation.org" target="_blank">Oficial de programa Senior en la Fundación Ford (Oficina para México)</a>
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>
-                    Mauricio Rodríguez Abreu
-                  </h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctor en Demografía Aplicada por la <a href="http://www.utsa.edu/" target="_blank">Universidad de Texas, San Antonio</a>
-                      </li>
-                      <li>
-                        Investigador Asociado del Seminario
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
-              </div>
-              <div class="col-md-4 col-xs-12 nosotros">
-                <dl>
-                  <h4>Carlos Alba</h4>
-                  <dd>
-                    <ul>
-                      <li>
-                        Doctorado en Ciencias Sociales, <a href="http://www.ehess.fr/fr" target="_blank">École des Hautes Études en Sciences Sociales</a>, París, Francia
-                      </li>
-                      <li>
-                        Profesor-Investigador del <a href="http://cei.colmex.mx" target="_blank">Centro de Estudios Internacionales</a> de El Colegio de México
-                      </li>
-                    </ul>
-                  </dd>
-                </dl>
               </div>
             </div>
           </div>
