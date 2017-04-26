@@ -344,9 +344,9 @@
     <div class="row">
       <div class="showing-result-box">
         <div class="rusult-number">
-          <p>Mostrando <span>1</span> de 1 resultado</p>
+          <p>Mostrando <span>01 - 02</span> de 2 resultados</p>
         </div>
-        <div class="search-result-right">
+        <!-- <div class="search-result-right">
           <form action="#">
             <input type="search" name="search" placeholder="Buscar evento">
             <button><i class="fa fa-search" aria-hidden="true"></i></button>
@@ -355,13 +355,57 @@
             <a href="events_page_one.html"><i class="fa fa-th" aria-hidden="true"></i></a>
             <a href="list_events_page.html"><i class="fa fa-list" aria-hidden="true"></i></a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
     <!-- Tercer renglón con los eventos y las categorías -->
     <div class="row"  >
-      <div class="row">
-        <div class="col-md-10 col-md-offset-1 col-sm-8 col-sm-offset-2 col-xs-12">
+      <!-- Este div es el que va a contener a los eventos, mostrados en
+      rejilla, tabla o grid -->
+      <div class="all-events">
+      <!-- Cada columna de bootstrap contiene un evento   -->
+      <div class="col-md-5 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-12">
+        <!-- Segunda sesión -->
+        <div class="events-list-style">
+          <!-- Div para agregar un evento y su resumen -->
+          <div class="single-event">
+            <div class="event-pic">
+              <img src="images/PPRET_redes.jpg" alt="Segunda sesión">
+              <div class="event-date">
+                <span class="date">9</span>
+                <span class="year">Mayo 2017</span>
+              </div>
+            </div>
+            <div class="event-info">
+              <h4><a href="sesion2.html">Sesión inaugural</a></h4>
+              <p>El futuro del empleo en la industria automotriz</p>
+              <span><i class="fa fa-user" aria-hidden="true"></i> : Graciela Bensusán ( UAM-X )</span>
+              <span><i class="fa fa-user" aria-hidden="true"></i> : Landy Sánchez ( Colmex )</span>
+              <span><i class="fa fa-user" aria-hidden="true"></i> : Fausto Cuevas ( AMIA )</span>
+              <span><i class="fa fa-user" aria-hidden="true"></i> : Rey David García ( Sindicato VW )</span>
+              <span><i class="fa fa-user" aria-hidden="true"></i> : Ludger Pries ( Colmex )</span>
+              <span><i class="fa fa-clock-o" aria-hidden="true"></i> : 12:00 - 14:00 horas</span>
+              <span><i class="fa fa-home" aria-hidden="true"></i> :  Sala Alfonso Reyes, El Colegio de México</span>
+              <a href="sesion1.html" class="button">Más información</a>
+            </div>
+          </div>
+          <!-- Din de div para agregar un evento y su resumen -->
+        </div>
+        <!-- Renglón para la paginación y el desplazamiento entre estas -->
+        <div class="row">
+          <div class="pagination-div">
+            <ul class="pagination">
+              <li class="disabled"><a href="#" aria-label="Previous"><i class="fa fa-angle-left" aria-hidden="true"></i></a></li>
+              <li class="active"><a href="#">1</a></li>
+              <li class="disabled"><a href="#" aria-label="Next"><i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Fin de renglón para la paginación y el desplazamiento entre estas -->
+      </div>
+
+        <div class="col-md-5 col-md-offset-1 col-sm-4 col-sm-offset-2 col-xs-12">
+          <!-- Sesión inaugural -->
           <div class="events-list-style">
             <!-- Div para agregar un evento y su resumen -->
             <div class="single-event">
@@ -400,7 +444,7 @@
           <!-- Fin de renglón para la paginación y el desplazamiento entre estas -->
         </div>
       </div>
-    </div>
+      </div>
   </div>
 </section>
 
