@@ -430,7 +430,7 @@ body.down #menu-fixed.clone .donation a {
 	font-size:16px;
 	text-transform:uppercase;
 	color:#FFF;
-	font-weight: 600;
+	font-weight: normal;
     letter-spacing: 0.05em;
 }
 .navbar-default .navbar-nav>li>a:hover {
