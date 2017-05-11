@@ -130,7 +130,7 @@ a:focus {
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
 .btn-two {
-    font-size: 14px;
+    font-size: 16px;
     display: inline-block;
     color: #eb6852;
     padding: 13px 19px;
@@ -842,7 +842,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     height: 100%;
     position: absolute;
     background: #000;
-    opacity: .6;
+    opacity: .3;
 }
 .item img {
     width: 100%;
