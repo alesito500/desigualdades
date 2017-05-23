@@ -211,11 +211,12 @@
         top: 38px;
         left: 8px;
     }
+	
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {color:#e5e5e5; background-color: transparent;}
     .slider-content {
         left: 0;
     }
     .slider-content-inner {
-        margin: 0;
         text-align: center;
         max-width: 90%;
         margin: 0 auto;
@@ -283,7 +284,8 @@
     .helping-list {
         float: none;
         width: 100%;
-        margin-right: 0;
+        margin-right: 0px;
+		padding-left:30px;
         display: block;
         margin-bottom: 15px;
     }
@@ -338,7 +340,7 @@
         top: -115px;
     }
     .light-menu .navbar-default .navbar-nav>li>a {
-        color: #000;
+        color: #eb6852;
     }
     .light-menu .navbar-default .navbar-nav>li>a:hover {
         color: #fff;
@@ -622,13 +624,13 @@
         display: block;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>li>a {
-        color: #000;
+        color: #FFF;
     }
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
     .navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
         color: #fff;
-        background-color: #000;
+        background-color: #eb6852;
     }
     .navbar-nav>li.dropdown>.dropdown-menu li.dropdown>a span::after {
         content: "\f0d7";
@@ -636,7 +638,7 @@
     }
     .navbar-default .navbar-nav>li>a:focus,
     .navbar-default .navbar-nav>li>a:hover {
-        color: #000;
+        color: #eb6852;
     }
     .navbar-default .navbar-nav>.active>a,
     .navbar-default .navbar-nav>.active>a:focus,
@@ -841,8 +843,8 @@
     /* 404 page */
     .error h1 {
         font-size: 263px;
-        font-weight: 600;
-        color: #000;
+        font-weight: 500;
+        color: #e5e5e5;
     }
     #contact_map {
         height: 400px;
@@ -883,6 +885,7 @@
     .btn-two {
         font-size: 12px;
         padding: 10px 16px;
+		margin-left: 30px;
     }
     .donator-people {
         max-width: inherit;
@@ -911,6 +914,8 @@
     }
     .helping-description p {
         margin-bottom: 20px;
+		padding-left: 30px;
+		padding-right: 30px;
         line-height: 26px;
     }
     .donation-form .button {
