@@ -129,7 +129,7 @@ a:focus {
     color: #eb6852;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two {
+.btn-two, .btn-equidad {
     font-size: 16px;
     display: inline-block;
     color: #eb6852;
@@ -144,7 +144,9 @@ a:focus {
     transition: .3s;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two:hover {
+.btn-equidad {margin-left: 10px; margin-bottom: 10px;}
+
+.btn-two:hover, .btn-equidad:hover {
     color: #fff;
     border: 2px solid #88a5af;
     box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af;
