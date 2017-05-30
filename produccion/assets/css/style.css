@@ -1961,12 +1961,7 @@ Footer Section - Footer Bottom
     margin: 0;
 }
 .helping-box {}
-.helping-list {
-    float: left;
-    width: 23%;
-    margin-right: 30px;
-    display: table;
-}
+.helping-list {}
 .helping-list ul {
     margin-top: -20px;
 }
@@ -4384,4 +4379,3 @@ color:#FAFAFA;}
 	/** Destapar el lightbox **/
 	display: block;
 }
-
