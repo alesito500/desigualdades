@@ -116,7 +116,7 @@ a:focus {
     padding: 13px 19px;
     line-height: 1;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 1px;
     outline: none;
     border: 2px solid #88a5af;
@@ -129,14 +129,14 @@ a:focus {
     color: #eb6852;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two {
+.btn-two, .btn-equidad {
     font-size: 16px;
     display: inline-block;
     color: #eb6852;
     padding: 13px 19px;
     line-height: 1;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 1px;
     outline: none;
     border: 2px solid #88a5af;
@@ -144,7 +144,9 @@ a:focus {
     transition: .3s;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two:hover {
+.btn-equidad {margin-left: 10px; margin-bottom: 10px;}
+
+.btn-two:hover, .btn-equidad:hover {
     color: #fff;
     border: 2px solid #88a5af;
     box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af;
@@ -153,7 +155,7 @@ a:focus {
     padding: 50px 0;
 }
 .p-90 {
-    padding-bottom: 90px;
+    padding-bottom: 30px;
 }
 .s-bg {
     background: #F7F7F7;
@@ -340,7 +342,7 @@ a:focus {
     float: none;
     font-size: 1.3em;
     color: #212121;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     line-height: 26px;
 }
@@ -409,7 +411,6 @@ body.down #menu-fixed.clone .donation a {
     margin-top: 10px;
 }
 
-
 /* Menu */
 .navbar {
 	float:left;
@@ -430,7 +431,11 @@ body.down #menu-fixed.clone .donation a {
 	font-size:16px;
 	text-transform:uppercase;
 	color:#FFF;
+<<<<<<< HEAD
 	font-weight: normal;
+=======
+	font-weight: 500;
+>>>>>>> origin/master
     letter-spacing: 0.05em;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -452,7 +457,7 @@ body.down #menu-fixed.clone .donation a {
     padding: 0 0;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     margin: 0px 0 0;
-    font-size: 14px;
+    font-size: .8em;
     border: none;
     border-radius: 0px;
 	  min-width: 240px;
@@ -492,7 +497,7 @@ body.down #menu-fixed.clone .donation a {
 	border-bottom: none;
 }
 .dropdown-menu li a {
-    color: #222222;
+    color: #eb6852;
     padding: 14px 26px 14px 15px;
     text-transform: uppercase;
     word-spacing: 3px;
@@ -501,7 +506,7 @@ body.down #menu-fixed.clone .donation a {
     transition: .4s;
 	  font-size: 1.2em;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.5;
 }
 .dropdown-menu li a:focus, .dropdown-menu li a:hover {
 	background: #e34132;
@@ -871,7 +876,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     color: #88a5af;
     margin: 11px 0 0px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .slider-content-inner h4 {
     font-size: 40px;
@@ -1185,7 +1190,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 }
 .causes-content h4 {
     font-size: 1.6em;
-    font-weight: 600;
+    font-weight: 500;
     color: #666;
     margin-bottom: 6px;
 	text-align: center;
@@ -1207,7 +1212,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .causes-content h5 {
     color: #212121;
     font-size: 1.3em;
-    font-weight: 600;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .causes-content h5:last-of-type {
@@ -1949,7 +1954,9 @@ Footer Section - Footer Bottom
 /*=================================
 10. Helping Section
 ==================================*/
-.helping-section {}
+.helping-section {
+	padding: 50px 0 0 0;
+}
 .helping-section .section-heading {
     text-align: left;
 }
@@ -1958,19 +1965,14 @@ Footer Section - Footer Bottom
     margin: 0;
 }
 .helping-box {}
-.helping-list {
-    float: left;
-    width: 23%;
-    margin-right: 30px;
-    display: table;
-}
+.helping-list {}
 .helping-list ul {
     margin-top: -20px;
 }
 .helping-list ul li {}
 .helping-list ul li a {
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 500;
     color: #212121;
     display: block;
     padding: 13px 0;
@@ -2691,6 +2693,8 @@ Footer Section - Footer Bottom
 }
 .panel-title {
     font-weight: 400;
+	color:#f78474;
+	line-height: 1.6;
 }
 .panel-title a {
     text-decoration: none;
@@ -2698,20 +2702,21 @@ Footer Section - Footer Bottom
 	position: relative;
     padding: 15px 25px 15px 0;
     background: transparent;
-    color: #88a5af;
+    color: #f78474;
     font-size: 1.3em;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
 .panel-title a.collapsed {
     background: none;
-    color: #212121;
+    color: #eb6852;
 }
 .panel-body {
     padding: 20px 25px;
     line-height: 24px;
-    font-size: 1.4em;
+    font-size: 1em;
     text-align: justify;
+	color: #696969;
 }
 .plus-minus-icon {
     width: 30px;
@@ -2730,7 +2735,7 @@ Footer Section - Footer Bottom
 .plus-stick {
     width: 10px;
     height: 2px;
-    background: #000;
+    background: #696969;
     display: block;
     position: absolute;
     top: 50%;
@@ -2747,7 +2752,7 @@ Footer Section - Footer Bottom
 .minus-stick {
     width: 10px;
     height: 2px;
-    background: #000;
+    background: #696969;
     display: block;
     position: absolute;
     top: 50%;
@@ -3113,7 +3118,7 @@ Footer Section - Footer Bottom
 .nav-tabs>li>a {
     border-width: 0 0 0 0;
     font-size: 1.5em;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
     margin-right: 20px;
     text-transform: uppercase;
@@ -3250,7 +3255,7 @@ Footer Section - Footer Bottom
     font-size: 2.5em;
     color: #fefefe;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .breadcrumb-ul {
@@ -3311,7 +3316,7 @@ Footer Section - Footer Bottom
 .widget h3 {
     font-weight: 600;
     font-size: 1.6em;
-    color: #212121;
+    color: #88a5af;
     padding: 0 30px;
     border-bottom: 4px solid #F0F0F0;
     padding-bottom: 12px;
@@ -4306,7 +4311,7 @@ Footer Section - Footer Bottom
 }
 .error h1 {
     font-size: 300px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
 }
 .error h1 span {
