@@ -122,13 +122,13 @@
 					return '<p class="' + _self.settings.classPrefix + 'error">' + _self.settings.labels['errorMessage'] + '</p>';
 				},
 				labels: {
-					'errorMessage': 'Source could not be found...',
-					'sequenceInfo.of': ' of ',
-					'close': 'Close',
-					'navigator.prev': 'Prev',
-					'navigator.next': 'Next',
+					'errorMessage': 'La fuente no pudo ser encontrada...',
+					'sequenceInfo.of': ' de ',
+					'close': 'Cerrar',
+					'navigator.prev': 'Anterior',
+					'navigator.next': 'Siguiente',
  					'navigator.play': 'Play',
-					'navigator.pause': 'Pause'
+					'navigator.pause': 'Pausa'
 				},
 				markup: function () {
 					$('body').append(
@@ -164,7 +164,7 @@
 				onFinish: {},
 				onClose: {},
 				onCleanup: {}
-			}, 
+			},
 			options,
 			// Load options from data-lc-options attribute
 			_self.origin.data ? _self.origin.data('lc-options') : {});
