@@ -70,16 +70,19 @@
 
 30. 404 Page
 
+31. Íconos Cris
+
+32. Lightbox
 ----------------------------------------------- */
 @import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i|Poppins:300,400,500,600,700');
-@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 * {
     margin: 0;
     padding: 0;
 }
 body {
-  font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', 'Lato', sans-serif;
 	color:#4b4b4b;
     font-size: 16px;
 }
@@ -92,7 +95,7 @@ h1, h2, h3, h4, h5, p {
 }
 h4 {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.6em;
 }
 ul{
     margin: 0;
@@ -113,7 +116,7 @@ a:focus {
     padding: 13px 19px;
     line-height: 1;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 1px;
     outline: none;
     border: 2px solid #88a5af;
@@ -126,14 +129,14 @@ a:focus {
     color: #eb6852;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two {
-    font-size: 14px;
+.btn-two, .btn-equidad {
+    font-size: 16px;
     display: inline-block;
     color: #eb6852;
     padding: 13px 19px;
     line-height: 1;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     border-radius: 1px;
     outline: none;
     border: 2px solid #88a5af;
@@ -141,7 +144,9 @@ a:focus {
     transition: .3s;
     box-shadow: inset 0px 0px 0px 0px #88a5af, inset 0px 0px 0px 0px #88a5af;
 }
-.btn-two:hover {
+.btn-equidad {margin-left: 10px; margin-bottom: 10px;}
+
+.btn-two:hover, .btn-equidad:hover {
     color: #fff;
     border: 2px solid #88a5af;
     box-shadow: inset 6px 5px 27px 22px #88a5af, inset 1px 0px 0px 0px #88a5af;
@@ -150,7 +155,7 @@ a:focus {
     padding: 50px 0;
 }
 .p-90 {
-    padding-bottom: 90px;
+    padding-bottom: 30px;
 }
 .s-bg {
     background: #F7F7F7;
@@ -174,14 +179,14 @@ a:focus {
     color:  #eb6852;
 }
 .section-heading h3 {
-    font-size: 36px;
+    font-size: 2.5em;
     color: #667c83;
     font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
 }
 .section-heading p {
-    font-size: 16px;
+    font-size: 1.3em;
     line-height: 26px;
     color: #4b4b4b;
     width: 70%;
@@ -267,7 +272,7 @@ a:focus {
     color: #696969;
     background-color: transparent;
     border: 1px solid #F0F0F0;
-    font-size: 18px;
+    font-size: 1.5em;
     border-radius: 3px;
 }
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
@@ -318,13 +323,13 @@ a:focus {
 }
 .header-top-contact h5 {
     color: #333333;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 500;
     margin-bottom: 0px;
 }
 .header-top-contact h6 {
     color: #e34132;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 500;
     margin-bottom: 0;
 	margin-top:0;
@@ -335,9 +340,9 @@ a:focus {
 .header-top-right {}
 .header-top-right h5 {
     float: none;
-    font-size: 16px;
+    font-size: 1.3em;
     color: #212121;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
     line-height: 26px;
 }
@@ -406,7 +411,6 @@ body.down #menu-fixed.clone .donation a {
     margin-top: 10px;
 }
 
-
 /* Menu */
 .navbar {
 	float:left;
@@ -427,7 +431,11 @@ body.down #menu-fixed.clone .donation a {
 	font-size:16px;
 	text-transform:uppercase;
 	color:#FFF;
-	font-weight: 600;
+<<<<<<< HEAD
+	font-weight: normal;
+=======
+	font-weight: 500;
+>>>>>>> origin/master
     letter-spacing: 0.05em;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -449,10 +457,10 @@ body.down #menu-fixed.clone .donation a {
     padding: 0 0;
     box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2);
     margin: 0px 0 0;
-    font-size: 14px;
+    font-size: .8em;
     border: none;
     border-radius: 0px;
-	min-width: 240px;
+	  min-width: 240px;
     background: #F4F4F4;
 }
 .navbar-nav>li.dropdown>ul.dropdown-menu {
@@ -489,16 +497,16 @@ body.down #menu-fixed.clone .donation a {
 	border-bottom: none;
 }
 .dropdown-menu li a {
-    color: #222222;
+    color: #eb6852;
     padding: 14px 26px 14px 15px;
     text-transform: uppercase;
     word-spacing: 3px;
-	z-index:1;
+	  z-index:1;
     -webkit-transition: .4s;
     transition: .4s;
-	font-size: 13px;
+	  font-size: 1.2em;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.5;
 }
 .dropdown-menu li a:focus, .dropdown-menu li a:hover {
 	background: #e34132;
@@ -515,7 +523,7 @@ body.down #menu-fixed.clone .donation a {
     box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.2);;
 }
 .dropdown-menu>li.dropdown:hover>ul.dropdown-menu {
-
+  display: block;
 }
 /* Active Menu Style */
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -557,7 +565,7 @@ body.down #menu-fixed.clone .donation a {
     padding: 24px 0;
 }
 .search-box i {
-    font-size: 18px;
+    font-size: 1.5em;
     color: #fff;
     cursor: pointer;
 }
@@ -638,7 +646,7 @@ body.down #menu-fixed.clone .donation a {
 }
 .chart-icon .cart-list li .cart-selected-product h3 a{
     color: #000;
-    font-size: 15px;
+    font-size: 1.4em;
     padding: 0px;
 	text-decoration: none;
 	-webkit-transition: .2s;
@@ -668,7 +676,7 @@ body.down #menu-fixed.clone .donation a {
     font-weight: 400;
     display: inline-block;
     float: left;
-    font-size: 15px;
+    font-size: 1.4em;
     margin-right: 5px;
     line-height: 16px;
 }
@@ -710,7 +718,7 @@ body.down #menu-fixed.clone .donation a {
 }
 #all-search::-webkit-input-placeholder {
   color: #fff;
-  font-size: 20px;
+  font-size: 1.6em;
   letter-spacing: 1px;
   font-weight: 400;
 }
@@ -839,7 +847,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     height: 100%;
     position: absolute;
     background: #000;
-    opacity: .6;
+    opacity: .3;
 }
 .item img {
     width: 100%;
@@ -868,7 +876,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     color: #88a5af;
     margin: 11px 0 0px;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .slider-content-inner h4 {
     font-size: 40px;
@@ -877,7 +885,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 .slider-content-inner p {
     -webkit-transition: .7s;
     transition: .7s;
-    font-size: 16px;
+    font-size: 1.3em;
     line-height: 30px;
     margin: 13px 0 30px;
     width: 100%;
@@ -949,7 +957,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     left: 0;
     width: 42px;
     height: 42px;
-    font-size: 20px;
+    font-size: 1.6em;
     color: #fff;
     text-align: center;
     text-shadow: none;
@@ -1062,7 +1070,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 }
 .ammount-button {
     color: #696969;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 500;
     padding: 11px 25px 11px 35px;
     border: 1px solid #F0F0F0;
@@ -1107,7 +1115,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 }
 .donation-form input::-webkit-input-placeholder {
   color: #696969;
-  font-size: 15px;
+  font-size: 1.4em;
   letter-spacing: 0.05em;
   font-weight: 400;
 }
@@ -1125,7 +1133,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     border: 1px solid #F0F0F0;
     padding: 10px 17px;
     color: #696969;
-    font-size: 15px;
+    font-size: 1.4em;
     letter-spacing: 0.05em;
     margin-bottom: 30px;
     outline: none;
@@ -1181,8 +1189,8 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     transition: .2s;
 }
 .causes-content h4 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 1.6em;
+    font-weight: 500;
     color: #666;
     margin-bottom: 6px;
 	text-align: center;
@@ -1197,14 +1205,14 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
 }
 .causes-content p {
     color: #707070;
-    font-size: 15px;
+    font-size: 1.4em;
     line-height: 26px;
     margin-bottom: 29px;
 }
 .causes-content h5 {
     color: #212121;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 1.3em;
+    font-weight: 500;
     margin-bottom: 10px;
 }
 .causes-content h5:last-of-type {
@@ -1334,7 +1342,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     display: table;
 }
 .gallery-content i {
-    font-size: 18px;
+    font-size: 1.5em;
     color: #fff;
     width: 44px;
     height: 44px;
@@ -1379,7 +1387,7 @@ body.down #header-style-two #menu-fixed.clone .mainmenu-icon {
     padding-top: 6px;
 }
 #lightcase-info #lightcase-sequenceInfo {
-    font-size: 13px;
+    font-size: 1.2em;
     color: #88a5af;
     float: left;
 }
@@ -1594,7 +1602,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 .event-date span.date {
     display: block;
-    font-size: 36px;
+    font-size: 2.5em;
     color: #88a5af;
     font-weight: 600;
     line-height: 1;
@@ -1641,7 +1649,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 .event-info span {
     color: #696969;
-    font-size: 16px;
+    font-size: 1.3em;
     display: block;
     border-bottom: 1px solid #F0F0F0;
     padding: 15px 0;
@@ -1680,7 +1688,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     color: #88a5af;
 }
 .single-twit p {
-    font-size: 16px;
+    font-size: 1.3em;
     line-height: 28px;
     color: #fff;
     padding: 40px 0 95px 0;
@@ -1734,7 +1742,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 .footer-content {
 }
 .footer-content p {
-    font-size: 15px;
+    font-size: 1.4em;
     line-height: 30px;
     margin-bottom: 18px;
 }
@@ -1743,7 +1751,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
     padding: 5px 0 !important;
 }
 .contact-info ul li i {
-    font-size: 16px;
+    font-size: 1.3em;
     color: #88a5af;
     background: #0A0C0F;
     border-radius: 1px;
@@ -1784,7 +1792,7 @@ a[href^="https://maps.google.com/maps"]{display:none !important}
 }
 .latest-news-title {
     display: inline-block;
-    font-size: 15px;
+    font-size: 1.4em;
     line-height: 24px;
     margin-top: -5px;
     -webkit-transition: all 0.2s ease-in-out 0s;
@@ -1946,7 +1954,9 @@ Footer Section - Footer Bottom
 /*=================================
 10. Helping Section
 ==================================*/
-.helping-section {}
+.helping-section {
+	padding: 50px 0 0 0;
+}
 .helping-section .section-heading {
     text-align: left;
 }
@@ -1955,19 +1965,14 @@ Footer Section - Footer Bottom
     margin: 0;
 }
 .helping-box {}
-.helping-list {
-    float: left;
-    width: 23%;
-    margin-right: 30px;
-    display: table;
-}
+.helping-list {}
 .helping-list ul {
     margin-top: -20px;
 }
 .helping-list ul li {}
 .helping-list ul li a {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 500;
     color: #212121;
     display: block;
     padding: 13px 0;
@@ -2206,13 +2211,13 @@ Footer Section - Footer Bottom
     color: #fff;
 }
 .member-info h5 {
-    font-size: 16px;
+    font-size: 1.3em;
     color: #696969;
     margin-top: 3px;
 }
 .member-social-link {}
 .member-social-link a {
-    font-size: 18px;
+    font-size: 1.5em;
     color: #727272;
     margin: 0 6px;
     transition: .1s;
@@ -2421,7 +2426,7 @@ Footer Section - Footer Bottom
 }
 .meta-post span {
     color: #696969;
-    font-size: 15px;
+    font-size: 1.4em;
     position: relative;
     padding-right: 23px;
 }
@@ -2471,7 +2476,7 @@ Footer Section - Footer Bottom
 18. Careing section
 ==================================*/
 .careing-section .causes-content h4 {
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: 600;
     color: #212121;
     margin-bottom: 18px;
@@ -2688,6 +2693,8 @@ Footer Section - Footer Bottom
 }
 .panel-title {
     font-weight: 400;
+	color:#f78474;
+	line-height: 1.6;
 }
 .panel-title a {
     text-decoration: none;
@@ -2695,20 +2702,21 @@ Footer Section - Footer Bottom
 	position: relative;
     padding: 15px 25px 15px 0;
     background: transparent;
-    color: #88a5af;
-    font-size: 16px;
+    color: #f78474;
+    font-size: 1.3em;
 	-webkit-transition: .4s;
 	transition: .4s;
 }
 .panel-title a.collapsed {
     background: none;
-    color: #212121;
+    color: #eb6852;
 }
 .panel-body {
     padding: 20px 25px;
     line-height: 24px;
-    font-size: 15px;
+    font-size: 1em;
     text-align: justify;
+	color: #696969;
 }
 .plus-minus-icon {
     width: 30px;
@@ -2727,7 +2735,7 @@ Footer Section - Footer Bottom
 .plus-stick {
     width: 10px;
     height: 2px;
-    background: #000;
+    background: #696969;
     display: block;
     position: absolute;
     top: 50%;
@@ -2744,7 +2752,7 @@ Footer Section - Footer Bottom
 .minus-stick {
     width: 10px;
     height: 2px;
-    background: #000;
+    background: #696969;
     display: block;
     position: absolute;
     top: 50%;
@@ -2793,7 +2801,7 @@ Footer Section - Footer Bottom
 }
 .panel-body ul li a i {
     padding-right: 5px;
-    font-size: 15px;
+    font-size: 1.4em;
 }
 .panel-body ul  li a:hover {
 	color: #88a5af;
@@ -2843,7 +2851,7 @@ Footer Section - Footer Bottom
 }
 .filtering-price-ammount span.filter-text {
 	color: #333333;
-	font-size: 16px;
+	font-size: 1.3em;
 	margin-right: 12px;
 	font-weight: 600;
 }
@@ -2851,7 +2859,7 @@ Footer Section - Footer Bottom
 	float: left;
 }
 .filtering-price-ammount span {
-	font-size: 16px;
+	font-size: 1.3em;
 	font-weight: 700;
 	color: #88a5af;
 }
@@ -3109,8 +3117,8 @@ Footer Section - Footer Bottom
 }
 .nav-tabs>li>a {
     border-width: 0 0 0 0;
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 1.5em;
+    font-weight: 500;
     color: #000;
     margin-right: 20px;
     text-transform: uppercase;
@@ -3165,7 +3173,7 @@ Footer Section - Footer Bottom
     margin-bottom: 4px;
 }
 .review-heading h4 {
-    font-size: 18px;
+    font-size: 1.5em;
     color: #000;
     display: inline-block;
     margin-right: 22px;
@@ -3244,10 +3252,10 @@ Footer Section - Footer Bottom
     display: inline-block;
 }
 .breadcrumb-title {
-    font-size: 36px;
+    font-size: 2.5em;
     color: #fefefe;
     margin-bottom: 10px;
-    font-weight: 600;
+    font-weight: 500;
     text-transform: uppercase;
 }
 .breadcrumb-ul {
@@ -3286,14 +3294,14 @@ Footer Section - Footer Bottom
 .breadcrumb-ul li a {
     text-decoration: none;
     color: #9c9c9c;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 400;
     display: inline-block;
 }
 .breadcrumb-ul li.active-breadcrumb  {
 	font-weight: 400;
 	color: #88a5af;
-	font-size: 16px;
+	font-size: 1.3em;
 }
 
 /*=================================
@@ -3307,8 +3315,8 @@ Footer Section - Footer Bottom
 }
 .widget h3 {
     font-weight: 600;
-    font-size: 20px;
-    color: #212121;
+    font-size: 1.6em;
+    color: #88a5af;
     padding: 0 30px;
     border-bottom: 4px solid #F0F0F0;
     padding-bottom: 12px;
@@ -3398,7 +3406,7 @@ Footer Section - Footer Bottom
 }
 .single-champign .champign-title p {
     color: #696969;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 .single-champign .champign-title p span {
     color: #88a5af;
@@ -3420,7 +3428,7 @@ Footer Section - Footer Bottom
 }
 .widget-recent-post li span {
     color: #707070;
-    font-size: 15px;
+    font-size: 1.4em;
 }
 /* Tag */
 .tag {
@@ -3535,7 +3543,7 @@ Footer Section - Footer Bottom
 .causes-parcentence-list li {
     font-weight: 600;
     color: #000000;
-    font-size: 16px;
+    font-size: 1.3em;
     padding: 13px 30px;
     border-bottom: 1px solid #F0F0F0;
 }
@@ -3568,7 +3576,7 @@ Footer Section - Footer Bottom
     margin-top: 50px;
 }
 .tag-share span a {
-    font-size: 16px;
+    font-size: 1.3em;
     color: #696969;
     -webkit-transition: .2s;
     transition: .2s;
@@ -3650,7 +3658,7 @@ Footer Section - Footer Bottom
     bottom: 4px;
 }
 .user-name h5 a {
-	font-size: 18px;
+	font-size: 1.5em;
 	color: #000;
 	text-decoration: none;
 }
@@ -3767,7 +3775,7 @@ Footer Section - Footer Bottom
     padding-top: 25px;
 }
 .author .user-name h5 a {
-    font-size: 20px;
+    font-size: 1.6em;
     -webkit-transition: .2s;
     transition: .2s;
 }
@@ -3803,7 +3811,7 @@ Footer Section - Footer Bottom
     color: #88a5af;
 }
 .member-details h5 {
-    font-size: 16px;
+    font-size: 1.3em;
     color: #656565;
     margin: 9px 0 12px;
 }
@@ -4041,12 +4049,12 @@ Footer Section - Footer Bottom
 .contact-content h5 {
     font-weight: 600;
     color: #000;
-    font-size: 18px;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
 .contact-content h6 {
     color: #696969;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 400;
     line-height: 24px;
     margin-top: 5px;
@@ -4085,7 +4093,7 @@ Footer Section - Footer Bottom
 .cart-table>thead {
     background: #88a5af;
     color: #000;
-    font-size: 20px;
+    font-size: 1.6em;
 }
 .cart-table>thead >tr>th {
     padding: 16px 0;
@@ -4099,7 +4107,7 @@ Footer Section - Footer Bottom
 }
 .cart-table>tbody {
     color: #333333;
-    font-size: 18px;
+    font-size: 1.5em;
 	font-weight: 700;
 }
 .cart-table>tbody>tr {
@@ -4139,7 +4147,7 @@ Footer Section - Footer Bottom
 }
 .cart-table>tbody>tr>td.cart-quantity {
     color: #000;
-    font-size: 18px;
+    font-size: 1.5em;
 }
 .cart-table>tbody>tr>td.cart-quantity .product-quantity input[type="submit"] {
 	font-weight: 400;
@@ -4160,7 +4168,7 @@ Footer Section - Footer Bottom
 }
 .cart-product .cart-item-name a {
     color: #000;
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: 600;
     text-decoration: none;
     -webkit-transition: .25s;
@@ -4232,7 +4240,7 @@ Footer Section - Footer Bottom
 .shiping-box h3 {
     margin-bottom: 28px;
     color: #000;
-    font-size: 20px;
+    font-size: 1.6em;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -4303,7 +4311,7 @@ Footer Section - Footer Bottom
 }
 .error h1 {
     font-size: 300px;
-    font-weight: 600;
+    font-weight: 500;
     color: #000;
 }
 .error h1 span {
@@ -4328,7 +4336,7 @@ Footer Section - Footer Bottom
 }
 
 /*=================================
-ICONOS CRIS
+31. ICONOS CRIS
 ==================================*/
 .fa-car, .fa-briefcase, .fa-money, .fa-users {-webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: #eb6852;
@@ -4341,3 +4349,37 @@ color:#FAFAFA;}
 .coordinacion li { padding-top: 0.3em; padding-bottom: 0.6em;}
 .nosotros li { padding-top: 0.3em; padding-bottom: 0.5em;}
 .nosotros .section-heading{ text-align: left;}
+
+/*=================================
+32. Lightbox
+==================================*/
+
+.lightbox {
+	/** Default lightbox oculto */
+	display: none;
+
+	/** Posición y estilo */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+	max-width: 90%;
+	max-height: 80%;
+	margin-top: 2%;
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Destapar el lightbox **/
+	display: block;
+}
