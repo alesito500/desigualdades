@@ -292,6 +292,9 @@ a:focus {
 02. Header Section
 ==================================*/
 /* Header Top */
+
+.section-heading .apuntes-header {font-size:1.9em; text-align: inherit;}
+
 .header-top {
     padding: 15px 0;
 }
@@ -431,11 +434,11 @@ body.down #menu-fixed.clone .donation a {
 	font-size:16px;
 	text-transform:uppercase;
 	color:#FFF;
-<<<<<<< HEAD
+
 	font-weight: normal;
-=======
+
 	font-weight: 500;
->>>>>>> origin/master
+
     letter-spacing: 0.05em;
 }
 .navbar-default .navbar-nav>li>a:hover {
@@ -4383,3 +4386,5 @@ color:#FAFAFA;}
 	/** Destapar el lightbox **/
 	display: block;
 }
+
+
